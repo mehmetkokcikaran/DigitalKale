@@ -11,6 +11,7 @@ namespace DigitalKale.Controllers
         // GET: Blog
         public ActionResult Index()
         {
+            ViewBag.Title = "Dijital Kale | Blog";
             return View();
         }
         public ActionResult Category()
